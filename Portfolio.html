@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="https://cdn.glitch.global/8293398e-86be-4516-bc1f-894ab1d017e8/shortcut%20icon%20portfolio.png?v=1747024385870" />
+    <div id="profile-menu" class="profile-menu">
+        <button onclick="viewProfile()">👁 View</button>
+        <button onclick="editProfile()">✏️ Edit</button>
+    </div>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contacts">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header>
+    <div class="header-content">
+      <div class="text">
+        <h1>Hi, I'm <span class="highlight">Harish Suroju</span></h1>
+        <p>Web Developer | Student</p>
+      </div>
+      <div class="profile-container">
+        <img src="https://cdn.glitch.global/8293398e-86be-4516-bc1f-894ab1d017e8/WhatsApp%20Image%202025-05-10%20at%209.53.09%20AM.jpeg?v=1747015598411" alt="Profile Photo" class="profile-img" onclick="toggleMenu()" />
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm a curious mind in the world of Computer Science who loves crafting web apps and solving problems. Whether it's writing code in C++, Java, or diving into the MERN stack, I enjoy bringing ideas to life. Learning keeps me going — I’m always exploring new tech, earning certifications, and building things that matter.</p>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <h2>Education</h2>
+    <table>
+      <thead>
+        <tr><th>S.No</th><th>Education</th><th>From / To</th><th>Score</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1</td><td>SSC</td><td>2010 – 2020</td><td>100%</td></tr>
+        <tr><td>2</td><td>Intermediate</td><td>2021-2023</td><td>96.7%</td></tr>
+        <tr><td>3</td><td>B.Tech – Computer Science</td><td>2023 – 2027</td><td>88.7%</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Technical Skills:</strong> C, C++, Java, HTML, CSS, JavaScript, MongoDB, Express</li>
+      <li><strong>Soft Skills:</strong> Time management, Communication, Team management</li>
+    </ul>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <ul>
+      <li><a href="https://cdn.glitch.global/8293398e-86be-4516-bc1f-894ab1d017e8/Harish%20PSP%20using%20C%20by%20NPTEL.png?v=1747027839064" target="_blank">Problem Solving Through Programming In C – NPTEL</a></li>
+      <li><a href="https://cdn.glitch.global/8293398e-86be-4516-bc1f-894ab1d017e8/Python%20Essentials%201%20by%20CISCO.jpeg?v=1747027859484" target="_blank">Python Essentials 1 – CISCO</a></li>
+      <li><a href="https://cdn.glitch.global/8293398e-86be-4516-bc1f-894ab1d017e8/HArish%20DSA%20in%20Java%20by%20NPTEL.png?v=1747027853512" target="_blank">Data Structures and Algorithms using Java – NPTEL</a></li>
+      <li><a href="https://cdn.glitch.global/8293398e-86be-4516-bc1f-894ab1d017e8/Harish%20DBMS%20SQL%20by%20ORACLE.png?v=1747027843955" target="_blank">Database Programming with SQL – ORACLE</a></li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project">
+        <a href="http://contract-farming.glitch.me/" target="_blank">AgreGrow</a>
+        <p>Contract Farming Website</p>
+      </div>
+      <div class="project">
+        <a href="https://harish-calci.glitch.me/" target="_blank">Calculator</a>
+        <p>A basic web-based calculator</p>
+      </div>
+      <div class="project">
+        <a href="#" target="_blank">To-Do List</a>
+        <p>Manage your daily tasks</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacts -->
+  <section id="contacts">
+    <h2>Contacts</h2>
+    <p>Email: <a href="mailto:harishsurojuv@gmail.com">harishsurojuv@gmail.com</a></p>
+    <p>Phone: <a href="https://www.codechef.com/users/harishsuroju">https://www.codechef.com/users/harishsuroju</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/harish-suroju">yourprofile</a></p>
+  </section>
+  
+  <!-- Coding platforms -->
+  <section id="coding platforms" class="coding_platforms">
+    <h2>Coding platforms</h2>
+    <p>Leetcode: <a href="https://leetcode.com/u/Harish_2084/">https://leetcode.com/u/Harish_2084/</a></p>
+    <p>Codecheff: <a href="https://www.codechef.com/users/harishsuroju">https://www.codechef.com/users/harishsuroju</a></p>
+    <p>HackRank: <a href="https://www.hackerrank.com/profile/harishsurojuv">https://www.hackerrank.com/profile/harishsurojuv</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Harish Suroju. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
